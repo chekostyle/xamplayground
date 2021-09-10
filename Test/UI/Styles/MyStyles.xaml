@@ -1,0 +1,50 @@
+﻿<ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Test.UI.Styles.MyStyles">
+
+    <!-- CONTAINERS -->
+    <!-- Main Content Container -->
+    <Style x:Key="BaseContentPage" TargetType="ContentPage" >
+        <Setter Property="Padding" Value="16"/>
+        <Setter Property="BackgroundColor" Value="{DynamicResource ColorEFEFEF}"/>
+    </Style>
+
+    <!-- BUTTONS -->
+    <!-- Base Button -->
+    <Style x:Key="BaseButton" TargetType="Button">
+        <Setter Property="BorderWidth" Value="1"/>
+        <Setter Property="CornerRadius" Value="4"/>
+        <Setter Property="TextColor" Value="{DynamicResource ColorWhite}"/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="Opacity" Value="1"/>
+        <Setter Property="HeightRequest" Value="40"/>
+        <Setter Property="HorizontalOptions" Value="CenterAndExpand"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+    </Style>
+    
+    <!-- Green Button -->
+    <Style x:Key="ButtonGreen" TargetType="Button" BasedOn="{StaticResource BaseButton}">
+        <Setter Property="BackgroundColor" Value="{DynamicResource ColorGreen}"/>
+    </Style>
+    
+    <!-- Green Outline Button -->
+    <Style x:Key="ButtonGreenOutline" TargetType="Button" BasedOn="{StaticResource BaseButton}">
+        <Setter Property="BackgroundColor" Value="{DynamicResource ColorWhite}"/>
+        <Setter Property="BorderColor" Value="{DynamicResource ColorGreen}"/>
+        <Setter Property="TextColor" Value="{DynamicResource ColorBlack}"/>
+    </Style>
+    <!-- Green Button Large -->
+    <Style x:Key="ButtonGreenLarge" TargetType="Button" BasedOn="{StaticResource BaseButton}">
+        <Setter Property="BackgroundColor" Value="{DynamicResource ColorGreen}"/>
+        <Setter Property="HeightRequest" Value="50"/>
+    </Style>
+    <!-- Orange Button -->
+    <Style x:Key="ButtonOrange" TargetType="Button" BasedOn="{StaticResource BaseButton}">
+        <Setter Property="BackgroundColor" Value="{DynamicResource ColorOrange}"/>
+    </Style>
+    <!-- Blue Button -->
+    <Style x:Key="ButtonBlue" TargetType="Button" BasedOn="{StaticResource BaseButton}">
+        <Setter Property="BackgroundColor" Value="{DynamicResource ColorBlue}"/>
+    </Style>
+
+</ResourceDictionary>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="Test.MainPage">
+
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+
+        <Label Text="I'm a label"/>
+        <Button Text="Hi" Style="{DynamicResource ButtonBlue}"/>
+        <Button Text="Change Title Bar Color" Style="{DynamicResource ButtonGreen}" Command="{x:Binding ChangeTitleColorCommand}" CommandParameter="{DynamicResource ColorDrkGreen}"/>
+        <Button Text="Change Title Bar Text Color" Style="{DynamicResource ButtonOrange}" Command="{x:Binding ChangeTitleTextColorCommand}" CommandParameter="{DynamicResource ColorWhite}"/>
+
+    </StackLayout>
+
+</ContentPage>

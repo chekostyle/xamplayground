@@ -1,0 +1,23 @@
+﻿<ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Test.UI.Colors.DarkTheme">
+
+    <Color x:Key="Accent">#96d1ff</Color>
+    <Color x:Key="Primary">#2196F3</Color>
+    <Color x:Key="ColorE5E5E5">#E5E5E5</Color>
+    <Color x:Key="ColorBlack">#000000</Color>
+    <Color x:Key="ColorOrange">#ED8606</Color>
+    <Color x:Key="ColorRed">#FE0303</Color>
+    <Color x:Key="ColorFAFAFA">#FAFAFA</Color>
+    <Color x:Key="ColorWhite">#FFFFFF</Color>
+    <Color x:Key="ColorBlue">#50A0C5</Color>
+    <Color x:Key="ColorBlue50">#a7cfe2</Color>
+    <Color x:Key="ColorDrkGreen">#415818</Color>
+    <Color x:Key="ColorGreen">#78A22F</Color>
+    <Color x:Key="ColorGreen15">#ebf1e0</Color>
+    <Color x:Key="ColorGreen10">#f0f5e9</Color>
+    <Color x:Key="ColorEFEFEF">#EFEFEF</Color>
+    <Color x:Key="Color707070">#707070</Color>
+    <Color x:Key="Color5A5B5D">#5A5B5D</Color>
+
+</ResourceDictionary>
